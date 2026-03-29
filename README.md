@@ -12,9 +12,9 @@ A robust, full-duplex UART (Universal Asynchronous Receiver-Transmitter) core im
 
 ## 🌊 Functional Waveform Analysis
 
-The following simulation waveform (`uart_rx.png`) demonstrates the receiver capturing the hex value `0x41` (ASCII 'A').
+The following simulation waveform demonstrates the receiver capturing the hex value `0x41` (ASCII 'A').
 
-![UART RX Waveform](uart.rx.png)
+![UART RX Waveform](uart_rx.png)
 
 ### Transaction Breakdown:
 1.  **Start Bit Detection:** The FSM transitions from **IDLE (0)** to **START (1)** when a falling edge is detected on the `rx_serial` line.
