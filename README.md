@@ -12,7 +12,7 @@ A robust, full-duplex UART (Universal Asynchronous Receiver-Transmitter) core im
 
 ## 🌊 Functional Waveform Analysis
 
-The following simulation waveform (`uart.rx.png`) demonstrates the receiver capturing the hex value `0x41` (ASCII 'A').
+The following simulation waveform (`uart_rx.png`) demonstrates the receiver capturing the hex value `0x41` (ASCII 'A').
 
 ![UART RX Waveform](uart.rx.png)
 
